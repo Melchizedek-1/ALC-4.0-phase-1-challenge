@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ALC4phase1.ActivityC">
+
+
+    <ImageView
+        android:id="@+id/img_myphoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/melchizedek" />
+
+    <TextView
+        android:id="@+id/txt_myname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_myphoto"
+        android:text="WESONGA MELCHIZEDEK MUSOLO"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track:  Android"
+        android:layout_below="@+id/txt_myname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txt_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country: Kenya"
+        android:layout_below="@+id/txt_track"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: wesongamelchizedek@gmail.com"
+        android:layout_below="@+id/txt_country"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0702118808"
+        android:layout_below="@id/txt_email"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/txt_slack_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@WesongaMelchizedek"
+        android:layout_below="@+id/txt_phonenumber"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

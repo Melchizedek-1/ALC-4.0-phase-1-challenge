@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ActivityA">
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/welcome_message"
+        android:textAlignment="center"
+        android:textSize="@dimen/txt_large"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/btn_aboutalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_welcome"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:text="About ALC"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt_medium" />
+
+    <Button
+        android:id="@+id/btn_myprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_aboutalc"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/margins"
+        android:layout_marginRight="@dimen/margins"
+        android:text="My Profile"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt_medium" />
+
+</RelativeLayout>
